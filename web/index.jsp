@@ -12,10 +12,7 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Jsp Page</h1>
-        <%
-            int i = 10;
-        System.out.println("OKOK"+i);
-        %>
+        <h1>This is Index jsp file</h1>
+       
     </body>
 </html>
