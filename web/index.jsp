@@ -12,7 +12,9 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>This is Index jsp file</h1>
-       
+        <h1>Servlet examples</h1>
+        <a href="login.jsp">Login</a>
+        <a href="register.jsp">Register</a>
+
     </body>
 </html>
