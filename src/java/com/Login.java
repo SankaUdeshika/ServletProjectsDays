@@ -2,6 +2,7 @@ package com;
 
 import jakarta.servlet.Servlet;
 import jakarta.servlet.ServletConfig;
+import jakarta.servlet.ServletContext;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -12,20 +13,18 @@ import jakarta.servlet.ServletResponse;
 import jakarta.servlet.annotation.WebInitParam;
 import java.util.Enumeration;
 
-@WebServlet(name = "Login", value = "/login", initParams = {
-    @WebInitParam(name = "name", value = "WCD"),
-    @WebInitParam(name = "db", value = "Web_bd")
-})
+//@WebServlet(name = "Login", value = "/login", initParams = {
+//    @WebInitParam(name = "name", value = "WCD"),
+//    @WebInitParam(name = "db", value = "web_db")
+//})
 public class Login extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        ServletConfig config = getServletConfig();
-        Enumeration<String> e = config.getInitParameterNames();
-        while (e.hasMoreElements()) {
-            String name = e.nextElement();
-            System.out.println("name : " + name + " value - " + config.getInitParameter(name));
-        }
+        ServletContext context = getServletContext();
+//        context.setAttribute("name", "Java Web Application");
+        String a = context.getInitParameter("a");
+        System.out.println(a);
+//        System.out.println(context);
     }
-
 }
