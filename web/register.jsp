@@ -12,33 +12,36 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>login</h1
-        <form action="login" method="POST">
-            <tr>
-                <th>Name</th>
-                <td><input type="type" name="name"/></td>
-            </tr>
-            <tr>
-                <th>contact</th>
-                <td><input type="type" name="contact"/></td>
-            </tr>
-            <tr>
-                <th>Email</th>
-                <td><input type="type" name="email"/></td>
-            </tr>
-            <tr>
-                <th>password</th>
-                <td><input type="type" name="password"/></td>
-            </tr>
-            
-              <tr>
-             
-                <td><input type="submit" name="register"/></td>
-            </tr>
-        </tr>
-        <tr>
-        <input type="submit" value="login/">
-        </tr>
-    </form>
-</body>
+        <h1>Register</h1>
+
+        <form action="register" method="post">
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th><input type="type" name="name"></th>
+                </tr>
+
+                <tr>
+                    <th>Contact</th>
+                    <th><input type="type" name="contact"></th>
+                </tr>
+
+                <tr>
+                    <th>Email</th>
+                    <th><input type="type" name="email"></th>
+                </tr>
+
+                <tr>
+                    <th>password</th>
+                    <th><input type="password" name="password"></th>
+                </tr>
+
+                <tr>
+                    <th><input type="submit" value="Register"/></th>
+                </tr>
+
+            </table>
+        </form>
+
+    </body>
 </html>

@@ -12,21 +12,21 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>login</h1
-        <form action="login" method="POST">
-            <tr>
-                <th>Email</th>
-                <td><input type="type" name="email"/></td>
-            </tr>
-               <tr>
-                <th>password</th>
-                <td><input type="type" name="password"/></td>
-            </tr>
-             </tr>
-               <tr>
-               <input type="submit" value="login/">
-            </tr>
+        <h1>Login</h1>
+        <form action="login" method="post">
+            <table>
+                <tr>
+                    <th>Email</th>
+                    <td><input type="text" name="email"></td>
+                </tr>
+                <tr>
+                    <th>password</th>
+                    <td><input type="password" name="password"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Login"></td>
+                </tr>
+            </table>  
         </form>
-        
     </body>
 </html>

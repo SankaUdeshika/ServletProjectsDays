@@ -12,9 +12,8 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Servlet examples</h1>
+        <h1>Servlet Context Example</h1>
         <a href="login.jsp">Login</a>
         <a href="register.jsp">Register</a>
-
     </body>
 </html>

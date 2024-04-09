@@ -4,7 +4,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
          version="6.0">
-    
+    <!--Context param Start  ..................................................-->
     <context-param>
         <param-name>X</param-name>
         <param-value>This is X</param-value>
@@ -17,25 +17,8 @@
         <param-name>Z</param-name>
         <param-value>This is Z</param-value>
     </context-param>
-    
-    <servlet>
-        <servlet-name>Login</servlet-name>
-        <servlet-class>com.Login</servlet-class>
-        <init-param>
-            <param-name>name</param-name>
-            <param-value>Java web</param-value>
-        </init-param>
-        
-        <init-param>
-            <param-name>db</param-name>
-            <param-value>app_db</param-value>
-        </init-param>
-    </servlet>
-    
-    <servlet-mapping>
-        <servlet-name>Login</servlet-name>
-        <url-pattern>/login</url-pattern>
-    </servlet-mapping>
+    <!--Context param Start  ..................................................-->
+
     
 
 </web-app>
