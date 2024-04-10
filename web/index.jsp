@@ -1,6 +1,6 @@
 <%-- 
     Document   : index
-    Created on : Mar 20, 2024, 3:03:57 PM
+    Created on : Apr 9, 2024, 10:20:14 PM
     Author     : sanka
 --%>
 
@@ -12,8 +12,6 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Servlet Context Example</h1>
-        <a href="login.jsp">Login</a>
-        <a href="register.jsp">Register</a>
+        <h1>Hello World!</h1>
     </body>
 </html>
