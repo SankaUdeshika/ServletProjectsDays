@@ -16,7 +16,7 @@ public class A extends HttpServlet {
         Cookie c = new Cookie("name", "WCD");
 
 //        c.setAttribute("Path", "/app");
-        c.setValue("ChangedValue");
+//        c.setValue("ChangedValue");
 //        c.setPath(getServletContext().getContextPath() + "/login");
 //        c.setPath("/WebText/login");
 //        c.setDomain("google.com"); // set Domain name. reject wenawa thiyena DOmain ekath ekka wenas wena nisa
