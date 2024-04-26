@@ -36,7 +36,8 @@ public class Register extends HttpServlet {
         users.add(user);
         System.out.println(user.getEmail());
         System.out.println(users.size());
-
+        System.out.println(users);
+        System.out.println(user.getEmail());
 
         //        System.out.println(context.getAttribute("users"));
         //

@@ -12,8 +12,11 @@
         <title>JSP Page</title>
     </head>
     <body>
+        <h1>Home Page</h1>
         <a href="login.jsp">Login Page</a>
         <br>
         <a href="register.jsp">Register Page</a>
+        <br>
+        <a href="profile">Profile Page</a>
     </body>
 </html>
