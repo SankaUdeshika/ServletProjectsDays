@@ -4,29 +4,5 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
          version="6.0">
-    <!--Context param Start  ..................................................-->
-    <!--    <context-param>
-        <param-name>X</param-name>
-        <param-value>This is X</param-value>
-    </context-param>
-    <context-param>
-        <param-name>Y</param-name>
-        <param-value>This is Y</param-value>
-    </context-param>
-    <context-param>
-        <param-name>Z</param-name>
-        <param-value>This is Z</param-value>
-    </context-param>-->
-    <!--Context param Start  ..................................................-->
-
-    <session-config>
-        <cookie-config>
-            <name>JIAT</name>
-            <max-age>3600</max-age>
-        </cookie-config>
-    </session-config>
-
-
-
-    
+       
 </web-app>
